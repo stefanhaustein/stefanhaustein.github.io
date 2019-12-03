@@ -2,86 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head><title>stefan-haustein.com</title>
-<style>
-table a:link, table a:visited, table a:hover, table a:active {
-	color:#eee;
-	text-decoration: none;
-}
-
-table a:hover {
-	color:#fff;
-}
-
-td, th {
-   vertical-align:top;
-	 color:#ccc;
-}
-
-div {
-	box-sizing: border-box;
-}
-
-body {
-	font-family: sans-serif;
-	background-color:#666;
-	padding:0;
-	margin:0;
-}
-
-.title {
-	background-color: #444;
-	color: #eee;
-	height:64px;
-	padding:16px;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-
-.card {
-	background-color: #ddd;
-	width: 320px;
-	float: left;
-	height: 320px;
-	margin: 20px;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-
-.card-content {
-	clear: both;
-	padding: 10px;
-}
-
-.tag-programming, .tag-experimental, .tag-active {
-	color: white;
-	background-color: #888;
-	padding: 5px 10px;
-	border-radius: 10px;
-	font-size:14px;
-	float: left;
-	margin: 10px 0px 10px 10px;
-}
-
-.tag-programming {
-	background-color: #88f;
-}
-.tag-programming::before {
-	content: "Programming";
-}
-
-.tag-experimental {
-	background-color: #f44;
-}
-.tag-experimental::before {
-	content: "Experimental";
-}
-
-
-</style>
-
+	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <div class="title">
-	<div style="float:left; padding:8px"><b>Stefan haustein</b></div>
+	<div style="float:left; padding:8px"><b>Stefan Haustein</b></div>
 	<div style="float:right">
 		<a href="https://twitter.com/dukoid"><img src="img/twitter.png" width=32></a>&nbsp;
 		<a href="https://github.com/stefanhaustein"><img src="img/github.png" width=32></a>
@@ -92,82 +18,182 @@ body {
 <div style="max-width: 1200px;  margin-left:auto; margin-right: auto">
 
 <div class="card">
-	<a href="http://flowgrid.org"><img src="img/fg640.png" width=320></a>
-	<div class="tag-programming"></div>
-	<div class="tag-experimental"></div>
-	<div class="card-content">
-    <a href="http://flowgrid.org">FlowGrid</a><br>DataFlow programming for Android (<a href="https://play.google.com/store/apps/details?id=org.flowgrid">play store entry</a>)</td>
+  <a href="https://github.com/stefanhaustein/TerminalImageViewer"><img width=320 src="img/tiv640.png"</a>
+  <div class="tag-cpp"></div>
+  <div class="tag-stable"></div>
+  <div class="card-title">
+	  <a href="https://github.com/stefanhaustein/TerminalImageViewer">TerminalImageViewer</a>
+  </div>
+  <div class="card-content">
+	  Small C++ program to display images in a (modern) terminal using RGB ANSI
+	 codes and unicode block graphic characters
   </div>
 </div>
 
 <div class="card">
-	<a href="https://github.com/kobjects/htmlview"><img src="img/htmlview640.png" width=320></a>
-  <div class="card-content"><a href="https://github.com/kobjects/htmlview">HtmlView</a><br>A small library that renders HTML to native Android views, based on kXML. Allows
-mixing of native views with HTML with a small memory footprint.</div>
-</div>
-
-<div class="card">
 	<a href="https://github.com/stefanhaustein/expressionparser"><img src="img/parser320.png"</a>
-	<div class="card-content"><a href="https://github.com/stefanhaustein/expressionparser">ExpressionParser</a><br>A small single-file Java library for parsing expressions. Examples
-include a calculator, a simple CAS system and a BASIC interpreter.</div>
-</div>
-
-<div class="card">
-  <a href="https://github.com/stefanhaustein/TerminalImageViewer"><img width=320 src="img/tiv640.png"</a>
-  <div class="card-content"><a href="https://github.com/stefanhaustein/TerminalImageViewer">TerminalImageViewer</a><br>Small Java program to display images in a (modern) terminal using RGB ANSI codes and unicode block graphic characters</td>
+	<div class="tag-java"></div>
+	<div class="tag-library"></div>
+	<div class="tag-stable"></div>
+	<div class="card-title"><a href="https://github.com/stefanhaustein/expressionparser">ExpressionParser</a></div>
+	<div class="card-content">
+		A small single-file Android-compatible Java library for parsing expressions.
+		Examples include a calculator, a simple CAS system and a BASIC interpreter.
 	</div>
 </div>
 
 <div class="card">
-  <a href="https://github.com/stefanhaustein/typo"><img src="img/typo320.png"</a>
-  <div class="card-content"><a href="https://github.com/stefanhaustein/typo">Typo</a><br>Stab at creating something that relates to (a strict subset of) TypeScript like Rhino relates to JavaScript</div>
+  <a href="https://github.com/stefanhaustein/emojic"><img src="img/emojic320.png" width=320></a>
+	<div class="tag-android"></div>
+	<div class="tag-game"></div>
+	<div class="tag-stable"></div>
+  <div class="card-title">
+		<a href="https://github.com/stefanhaustein/emojic">Emojic</a>
+	</div>
+	<div class="card-content">
+		A simple Android logic game: just sort some emojis -- how hard can it be? O:)
+	</div>
+	<div class="card-content">
+		<a href="https://play.google.com/store/apps/details?id=org.flowgrid.emojic">▶️ Play Store Entry</a>
+	</div>
 </div>
 
+
 <div class="card">
-  <a href="https://github.com/stefanhaustein/emojic"><img src="img/emojic320.png" width=320></a>
-  <div class="card-content"><a href="https://github.com/stefanhaustein/emojic">Emojic</a><br>A simple Android logic game: just sort some emojis -- how hard can it be? O:)  (<a href="https://play.google.com/store/apps/details?id=org.flowgrid.emojic">play store entry</a>)</div>
+	<a href="http://flowgrid.org"><img src="img/fg640.png" width=320></a>
+	<div class="tag-android"></div>
+	<div class="tag-programming"></div>
+	<div class="tag-experimental"></div>
+	<div class="card-title">
+		<a href="http://flowgrid.org">FlowGrid</a>
+	</div>
+	<div class="card-content">
+    DataFlow programming for Android
+  </div>
+	<div class="card-content">
+    <a href="https://play.google.com/store/apps/details?id=org.flowgrid">▶️ Play Store Entry</a>
+  </div>
 </div>
+
+
+<div class="card">
+	<a href="https://github.com/kobjects/htmlview"><img src="img/htmlview640.png" width=320></a>
+	<div class="tag-android"></div>
+	<div class="tag-java"></div>
+	<div class="tag-library"></div>
+	<div class="card-title">
+		<a href="https://github.com/kobjects/htmlview">HtmlView</a>
+	</div>
+  <div class="card-content">
+		A small library that renders HTML to native Android views, based on kXML.
+		Allows mixing of native views with HTML with a small memory footprint.
+	</div>
+</div>
+
+
+<div class="card">
+  <a href="https://github.com/stefanhaustein/typo"><img src="img/typo320.png"</a>
+	<div class="tag-java"></div>
+	<div class="tag-programming"></div>
+	<div class="tag-experimental"></div>
+  <div class="card-title">
+		<a href="https://github.com/stefanhaustein/typo">Typo</a>
+	</div>
+	<div class="card-content">
+		Stab at creating something that relates to (a strict subset of) TypeScript
+		like Rhino relates to JavaScript
+  </div>
+</div>
+
 
 <div class="card">
   <a href="https://github.com/tidej/tidej"><img src="img/tidej640.png" width=320></a>
-  <div class="card-content"><a href="https://github.com/tidej/tidej">Tidej</a><br>A tiny mobile web IDE for Javascript</div>
+	<div class="tag-javascript"></div>
+	<div class="tag-programming"></div>
+	<div class="tag-experimental"></div>
+  <div class="card-title">
+		<a href="https://github.com/tidej/tidej">Tidej</a>
+	</div>
+	<div class="card-content">
+		A tiny mobile web IDE for Javascript
+	</div>
 </div>
 
 <div class="card">
   <a href="http://quake2playn.appspot.com/"><img src="img/quake_scaled.png"></a>
-  <div class="card-content"><a href="http://quake2playn.appspot.com/">Quake II HTML5 Port</a><br>Playable in Chrome</div>
+	<div class="tag-game"></div>
+	<div class="tag-gwt"></div>
+  <div class="card-title">
+		<a href="http://quake2playn.appspot.com/">Quake II HTML5 Port</a>
+	</div>
+	<div class="card-content">
+		Playable in Chrome
+	</div>
 </div>
 
 <div class="card">
   <a href="http://timezoom.org"><img src="img/timezoom_scaled.png">
-  <div class="card-content"><a href="http://timezoom.org">timezoom.org</a><br>Zoomable integrated Wikipedia timelines.</div>
+	<div class="tag-javascript"></div>
+  <div class="card-title">
+		<a href="http://timezoom.org">timezoom.org</a>
+	</div>
+	<div class="card-content">
+		Zoomable integrated Wikipedia timelines.
+	</div>
 </div>
 
 <div class="card">
   <a href="https://github.com/stefanhaustein/WebGLue"><img src="img/webglue320.png">
-  <div class="card-content">  <a href="https://github.com/stefanhaustein/WebGLue">WebGLue</a><br>
-A small library for "old-school" GL programming with WebGL</a>.</div>
+  <div class="tag-javascript"></div>
+	<div class="tag-library"></div>
+	<div class="tag-programming"></div>
+  <div class="card-title">
+		<a href="https://github.com/stefanhaustein/WebGLue">WebGLue</a>
+	</div>
+	<div class="card-content">
+		A small library for "old-school" GL programming with WebGL.
+	</div>
 </div>
 
 <div class="card">
   <a href="http://html5index.org"><img src="img/html5index.png">
-  <div class="card-content"><a href="http://html5index.org">html5index.org</a><br>An index of HTML5 JavaScript APIs, generated from the specifications</a>.</div>
+	<div class="tag-java"></div>
+	<div class="tag-javascript"></div>
+	<div class="tag-programming"></div>
+	<div class="card-title">
+		<a href="http://html5index.org">html5index.org</a>
+	</div>
+	<div class="card-content">
+		An index of HTML5 JavaScript APIs, generated from the specifications</a>
+	</div>
 </div>
 
 <div class="card">
   <div style="background-color:#88f;color:#fff;text-align:center;font-size:30px;height:180px;vertical-align:middle;padding-top:70px;"><i style="color:#ccc">k</i>objects</div>
-  <div class="card-content"><a href="http://kobjects.org">kobjects.org</a><br>Various mobile Java / Android projects such as kXML, kSOAP and ME4SE</div>
+	<div class="tag-android"></div>
+	<div class="tag-java"></div>
+	<div class="tag-library"></div>
+  <div class="card-title"><a href="http://kobjects.org">kobjects.org</a></div>
+	<div class="card-content">Various mobile Java / Android projects such as kXML, kSOAP and ME4SE</div>
 </div>
 
 <div class="card">
   <a href="http://playnbulletdemo.appspot.com"><img src="img/playnbullet.png">
-  <div class="card-content"><a href="https://code.google.com/p/gbullet">gbullet</a><br>
-A jbullet port reusing the <a href="https://code.google.com/p/playn">playn</a> <a href="https://code.google.com/p/playn-gl11-emulation/">gl11 emulation</a>.</div>
+  <div class="tag-gwt"></div>
+	<div class="tag-library"></div>
+  <div class="card-title">
+		<a href="https://code.google.com/p/gbullet">gbullet</a>
+	</div>
+	<div class="card-content">
+    A jbullet port reusing the <a href="https://code.google.com/p/playn">playn</a> <a href="https://code.google.com/p/playn-gl11-emulation/">gl11 emulation</a>.</div>
+  </div>
 </div>
 
 <div class="card">
   <a href="http://kobjects.org/latinlover/"><img src="img/latinlover_cropped.png"></a></td>
-  <div class="card-content"><a href="http://kobjects.org/latinlover/">Latin grammar</a><br>Implemented in JavaScript.</div>
+	<div class="tag-javascript"></div>
+  <div class="card-title"><a href="http://kobjects.org/latinlover/">Latin grammar</a></div>
+	<div class="card-content">Implemented in JavaScript.</div>
 </div>
 
 </body>

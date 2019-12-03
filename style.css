@@ -1,0 +1,125 @@
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	background-color:#666;
+	padding:100px 0;
+	margin:0;
+	color: #000;
+}
+
+.title {
+  position: fixed;
+  width: 100%;
+  top: 0;
+	background-color: #444;
+	color: #eee;
+	height:64px;
+	padding:16px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card {
+	background-color: #ddd;
+	width: 320px;
+	float: left;
+	height: 380px;
+	margin: 20px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-title {
+	clear: both;
+	padding: 10px 10px 10px 10px;
+	font-weight: bold;
+}
+
+.card-content {
+	clear: both;
+	padding: 0px 10px 10px 10px;
+}
+
+.tag-active,
+.tag-android,
+.tag-cpp,
+.tag-experimental,
+.tag-game,
+.tag-gwt,
+.tag-java,
+.tag-javascript,
+.tag-library,
+.tag-programming,
+.tag-typescript,
+.tag-stable {
+	color: white;
+	background-color: #88d;
+	padding: 3px 6px;
+	border-radius: 10px;
+	font-size:14px;
+	float: left;
+	margin: 10px 0px 10px 10px;
+}
+
+.tag-active::before {
+	content: "Active";
+}
+
+.tag-android {
+	background-color: #a4c639;
+}
+.tag-android::before {
+	content: "Android";
+}
+
+.tag-cpp::before {
+	content: "C++";
+}
+
+.tag-experimental {
+	background-color: #c00;
+}
+.tag-experimental::before {
+	content: "Experimental";
+}
+
+.tag-game::before {
+	content: "Game";
+}
+
+.tag-gwt::before {
+	content: "GWT";
+}
+
+.tag-java::before {
+	content: "Java";
+}
+
+.tag-javascript::before {
+	content: "JavaScript";
+}
+
+.tag-library::before {
+	content: "Library";
+}
+
+.tag-programming::before {
+	content: "Programming";
+}
+
+.tag-stable::before {
+	content: "Stable";
+}
+.tag-stable {
+	background-color: #777;
+}
+
+.tag-typescript::before {
+	content: "TypeScript";
+}
