@@ -17,6 +17,7 @@ body {
 
 .title {
   position: fixed;
+  z-index: 10;
   width: 100%;
   top: 0;
 	background-color: #444;
@@ -29,10 +30,56 @@ body {
 .card {
 	background-color: #ddd;
 	width: 320px;
-	float: left;
-	height: 380px;
+/*	float: left;
+	height: 380px; */
 	margin: 20px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding-bottom: 5px;
+}
+
+a.github {
+  background: no-repeat url('img/github.png');
+  background-position: 5px center;
+  background-size: 14px;
+  padding-left:24px;
+}
+
+a.playstore {
+  background: no-repeat url('img/play.png');
+  background-position: 5px center;
+  background-size: 14px;
+  padding-left:24px;
+}
+
+a.twitter {
+  background: no-repeat url('img/twitter_bw.png');
+  background-position: 5px center;
+  background-size: 14px;
+  padding-left:24px;
+}
+
+a.youtube {
+  background: no-repeat url('img/youtube.png');
+  background-position: 5px center;
+  background-size: 14px;
+  padding-left:24px;
+}
+
+a.link {
+  background: no-repeat url('img/link.png');
+  background-position: 5px center;
+  background-size: 14px;
+  padding-left:24px;
+}
+
+.card-link {
+  padding: 10px 10px;
+}
+
+.card-link img {
+  width: 12px;
+  height: 12px;
+  padding: 0px 5px;
 }
 
 .card-title {
@@ -41,9 +88,11 @@ body {
 	font-weight: bold;
 }
 
+
 .card-content {
-	clear: both;
+  display: block;
 	padding: 0px 10px 10px 10px;
+  margin: 0;
 }
 
 .tag-active,
